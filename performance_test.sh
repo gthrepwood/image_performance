@@ -16,7 +16,7 @@ start() {
 end() {
     end_time=$(date +%s.%N)
     runtime=$( echo "$end_time - $start_time" | bc )
-    echo "| $1 | $2 | $runtime | ![image]($3) | "
+    echo "| $1 | $2 | $runtime | ![image]($3) |  ![image]($4) | "
 }
 
 size() {
@@ -27,7 +27,7 @@ test_func_heic() {
     start
     outname="out/$filename.heic"
     convert $filename $outname
-    end "heic" `size $outname` "out/mini_heic_$filename.png"
+    end "heic" `size $outname` "out/mini_heic_$filename.png" "$outname"
     convert $outname +repage -crop 440x420+1400+2200 +repage "out/mini_heic_$filename.png"
 }
 
@@ -36,7 +36,7 @@ test_func_jpeg() {
     jpegoptim -q -o -d out -m"$1" $filename
     outname=out/$1_$filename
     mv out/$filename $outname
-    end "jpeg$1" `size out/$1_$filename` "out/mini_jpeg$1_$filename.png"
+    end "jpeg$1" `size out/$1_$filename` "out/mini_jpeg$1_$filename.png" "$outname"
     convert $outname +repage -crop 440x420+1400+2200 +repage "out/mini_jpeg$1_$filename.png"
 }
 
@@ -44,7 +44,7 @@ test_func_webp() {
     start
     outname="out/$1_$filename.webp"
     cwebp -quiet -q $1 $filename -o $outname
-    end "webp$1" `size $outname` "out/mini_webp$1_$filename"
+    end "webp$1" `size $outname` "out/mini_webp$1_$filename" "$outname"
     convert $outname +repage -crop 440x420+1400+2200 +repage "out/mini_webp$1_$filename"
 }
 
@@ -52,7 +52,7 @@ test_func_original() {
     start
     outname="out/original_$filename"
     cp $filename $outname
-    end "original" `size $outname` "out/mini_webp_original_$filename"
+    end "original" `size $outname` "out/mini_webp_original_$filename" "$outname"
     convert $outname +repage -crop 440x420+1400+2200 +repage "out/mini_webp_original_$filename"
 }
 
