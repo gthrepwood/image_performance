@@ -8,7 +8,7 @@ img {
 
 | Type     | Size    | Runtime | Zoom    |Size     |
 | -------- | ------- | ------- | ------- | ------- |
-| original | 11M | .058380364 | ![image](out/mini_webp_original_IMG_20200315_125023.jpg) |  [image](out/original_IMG_20200315_125023.jpg) | 
+| original | 11M | .058380364 | ![image](out/mini_webp_original_IMG_20200315_125023.jpg=250x250) |  [image](out/original_IMG_20200315_125023.jpg) | 
 | heic | 4,0M | 5.786069381 | ![image](out/mini_heic_IMG_20200315_125023.jpg.png) |  [image](out/IMG_20200315_125023.jpg.heic) | 
 | jpeg1 | 395K | .187241669 | ![image](out/mini_jpeg1_IMG_20200315_125023.jpg.png) |  [image](out/1_IMG_20200315_125023.jpg) | 
 | jpeg10 | 1,2M | .228188972 | ![image](out/mini_jpeg10_IMG_20200315_125023.jpg.png) |  [image](out/10_IMG_20200315_125023.jpg) | 
