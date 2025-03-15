@@ -4,14 +4,9 @@
 
 mkdir -p out
 
-filename="IMG_20200315_125023.jpg"
-
 # echo "<style>"
 # echo "img {height: 30%;width: 30%;}"
 # echo "</style>""
-
-echo "| Type     | Size    | Runtime | Zoom    |Size     |"
-echo "| -------- | ------- | ------- | ------- | ------- |"
 
 start() {
     start_time=$(date +%s.%N)
@@ -60,21 +55,33 @@ test_func_original() {
     convert $outname +repage -crop 440x420+1400+2200 +repage "out/mini_webp_original_$filename"
 }
 
-test_func_original
-test_func_heic
-test_func_jpeg "1"
-test_func_jpeg "10"
-test_func_jpeg "30"
-test_func_jpeg "50"
-test_func_jpeg "60"
-test_func_jpeg "85"
-test_func_jpeg "100"
-test_func_webp "10"
-test_func_webp "30"
-test_func_webp "50"
-test_func_webp "60"
-test_func_webp "85"
-test_func_webp "100"
+filename="IMG_20200315_125023.jpg"
 
+if [ "$#" -ne 1 ]; then
+    echo "Usage: $0 <filename>"
+    exit 1
+fi
+
+out="$1.md"
+filename="$1"
+
+echo "| Type     | Size    | Runtime | Zoom    |Size     |" | tee $out
+echo "| -------- | ------- | ------- | ------- | ------- |" | tee -a $out
+
+test_func_original     | tee -a $out
+test_func_heic  | tee -a $out
+test_func_jpeg "1"  | tee -a $out
+test_func_jpeg "10"  | tee -a $out
+test_func_jpeg "30"  | tee -a $out
+test_func_jpeg "50"  | tee -a $out
+test_func_jpeg "60"  | tee -a $out
+test_func_jpeg "85"  | tee -a $out
+test_func_jpeg "100"  | tee -a $out
+test_func_webp "10"  | tee -a $out
+test_func_webp "30"  | tee -a $out
+test_func_webp "50"  | tee -a $out
+test_func_webp "60"  | tee -a $out
+test_func_webp "85"  | tee -a $out
+test_func_webp "100"  | tee -a $out
 
 # convert in.png +repage -crop 640x620+0+0 +repage out.png
