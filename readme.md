@@ -1,11 +1,10 @@
-
-
 <style>
 img {
-  height: 30%;
-  width: 30%;
+    height: 30%;
+    width: 30%;
 }
 </style>
+
 
 | Type     | Size    | Runtime | Zoom    |Size     |
 | -------- | ------- | ------- | ------- | ------- |
