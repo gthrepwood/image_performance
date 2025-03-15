@@ -6,7 +6,9 @@ mkdir -p out
 
 filename="IMG_20200315_125023.jpg"
 
-echo "<style>img {height: 30%;width: 30%;}</style>"
+echo "<style>"
+echo "img {height: 30%;width: 30%;}"
+echo "</style>""
 
 echo "| Type     | Size    | Runtime | Zoom    |Size     |"
 echo "| -------- | ------- | ------- | ------- | ------- |"

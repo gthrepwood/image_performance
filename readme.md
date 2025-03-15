@@ -1,4 +1,6 @@
-<style>img {height: 30%;width: 30%;}</style>
+<style>
+img {height: 30%;width: 30%;}
+</style>
 | Type     | Size    | Runtime | Zoom    |Size     |
 | -------- | ------- | ------- | ------- | ------- |
 | original | 11M | .058380364 | ![image](out/mini_webp_original_IMG_20200315_125023.jpg) |  [image](out/original_IMG_20200315_125023.jpg) | 
