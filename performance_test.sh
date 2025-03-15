@@ -6,6 +6,8 @@ mkdir -p out
 
 filename="IMG_20200315_125023.jpg"
 
+echo "<style>img {height: 30%;width: 30%;}</style>"
+
 echo "| Type     | Size    | Runtime | Zoom    |Size     |"
 echo "| -------- | ------- | ------- | ------- | ------- |"
 
@@ -16,7 +18,7 @@ start() {
 end() {
     end_time=$(date +%s.%N)
     runtime=$( echo "$end_time - $start_time" | bc )
-    echo "| $1 | $2 | $runtime | ![image]($3) |  ![image]($4) | "
+    echo "| $1 | $2 | $runtime | ![image]($3) |  [image]($4) | "
 }
 
 size() {
