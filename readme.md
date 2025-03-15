@@ -1,45 +1,17 @@
-<<<<<<< HEAD
-<style>
-img {
-    height: 30%;
-    width: 30%;
-}
-</style>
-
-
 | Type     | Size    | Runtime | Zoom    |Size     |
 | -------- | ------- | ------- | ------- | ------- |
-| original | 11M | .058380364 | ![image](out/mini_webp_original_IMG_20200315_125023.jpg =250x250) |  [image](out/original_IMG_20200315_125023.jpg) | 
-| heic | 4,0M | 5.786069381 | ![image](out/mini_heic_IMG_20200315_125023.jpg.png) |  [image](out/IMG_20200315_125023.jpg.heic) | 
-| jpeg1 | 395K | .187241669 | ![image](out/mini_jpeg1_IMG_20200315_125023.jpg.png) |  [image](out/1_IMG_20200315_125023.jpg) | 
-| jpeg10 | 1,2M | .228188972 | ![image](out/mini_jpeg10_IMG_20200315_125023.jpg.png) |  [image](out/10_IMG_20200315_125023.jpg) | 
-| jpeg30 | 2,3M | .224497577 | ![image](out/mini_jpeg30_IMG_20200315_125023.jpg.png) |  [image](out/30_IMG_20200315_125023.jpg) | 
-| jpeg50 | 3,1M | .243706234 | ![image](out/mini_jpeg50_IMG_20200315_125023.jpg.png) |  [image](out/50_IMG_20200315_125023.jpg) | 
-| jpeg60 | 3,5M | .251482591 | ![image](out/mini_jpeg60_IMG_20200315_125023.jpg.png) |  [image](out/60_IMG_20200315_125023.jpg) | 
-| jpeg85 | 5,6M | .286044439 | ![image](out/mini_jpeg85_IMG_20200315_125023.jpg.png) |  [image](out/85_IMG_20200315_125023.jpg) | 
-| jpeg100 | 9,5M | .642044935 | ![image](out/mini_jpeg100_IMG_20200315_125023.jpg.png) |  [image](out/100_IMG_20200315_125023.jpg) | 
-| webp10 | 1,9M | 1.354232770 | ![image](out/mini_webp10_IMG_20200315_125023.jpg) |  [image](out/10_IMG_20200315_125023.jpg.webp) | 
-| webp30 | 2,9M | 1.567045734 | ![image](out/mini_webp30_IMG_20200315_125023.jpg) |  [image](out/30_IMG_20200315_125023.jpg.webp) | 
-| webp50 | 3,5M | 1.629790883 | ![image](out/mini_webp50_IMG_20200315_125023.jpg) |  [image](out/50_IMG_20200315_125023.jpg.webp) | 
-| webp60 | 3,8M | 1.695857026 | ![image](out/mini_webp60_IMG_20200315_125023.jpg) |  [image](out/60_IMG_20200315_125023.jpg.webp) | 
-| webp85 | 5,4M | 1.853975413 | ![image](out/mini_webp85_IMG_20200315_125023.jpg) |  [image](out/85_IMG_20200315_125023.jpg.webp) | 
-| webp100 | 9,3M | 2.277672692 | ![image](out/mini_webp100_IMG_20200315_125023.jpg) |  [image](out/100_IMG_20200315_125023.jpg.webp) | 
-=======
-| Type     | Size    | Runtime | Zoom    |Size     |
-| -------- | ------- | ------- | ------- | ------- |
-| original | 11M | .608995887 | <img src='out/mini_webp_original_IMG_20200315_125023.jpg' width=150 height=150> |  [image](out/original_IMG_20200315_125023.jpg) | 
-| heic | 4,0M | 5.780664844 | <img src='out/mini_heic_IMG_20200315_125023.jpg.png' width=150 height=150> |  [image](out/IMG_20200315_125023.jpg.heic) | 
-| jpeg1 | 395K | .184772410 | <img src='out/mini_jpeg1_IMG_20200315_125023.jpg.png' width=150 height=150> |  [image](out/1_IMG_20200315_125023.jpg) | 
-| jpeg10 | 1,2M | .203003488 | <img src='out/mini_jpeg10_IMG_20200315_125023.jpg.png' width=150 height=150> |  [image](out/10_IMG_20200315_125023.jpg) | 
-| jpeg30 | 2,3M | .225557323 | <img src='out/mini_jpeg30_IMG_20200315_125023.jpg.png' width=150 height=150> |  [image](out/30_IMG_20200315_125023.jpg) | 
-| jpeg50 | 3,1M | .238513987 | <img src='out/mini_jpeg50_IMG_20200315_125023.jpg.png' width=150 height=150> |  [image](out/50_IMG_20200315_125023.jpg) | 
-| jpeg60 | 3,5M | .245530779 | <img src='out/mini_jpeg60_IMG_20200315_125023.jpg.png' width=150 height=150> |  [image](out/60_IMG_20200315_125023.jpg) | 
-| jpeg85 | 5,6M | .391092022 | <img src='out/mini_jpeg85_IMG_20200315_125023.jpg.png' width=150 height=150> |  [image](out/85_IMG_20200315_125023.jpg) | 
-| jpeg100 | 9,5M | .958495858 | <img src='out/mini_jpeg100_IMG_20200315_125023.jpg.png' width=150 height=150> |  [image](out/100_IMG_20200315_125023.jpg) | 
-| webp10 | 1,9M | 1.377594677 | <img src='out/mini_webp10_IMG_20200315_125023.jpg' width=150 height=150> |  [image](out/10_IMG_20200315_125023.jpg.webp) | 
-| webp30 | 2,9M | 1.524922708 | <img src='out/mini_webp30_IMG_20200315_125023.jpg' width=150 height=150> |  [image](out/30_IMG_20200315_125023.jpg.webp) | 
-| webp50 | 3,5M | 1.606787855 | <img src='out/mini_webp50_IMG_20200315_125023.jpg' width=150 height=150> |  [image](out/50_IMG_20200315_125023.jpg.webp) | 
-| webp60 | 3,8M | 1.634716432 | <img src='out/mini_webp60_IMG_20200315_125023.jpg' width=150 height=150> |  [image](out/60_IMG_20200315_125023.jpg.webp) | 
-| webp85 | 5,4M | 1.965794238 | <img src='out/mini_webp85_IMG_20200315_125023.jpg' width=150 height=150> |  [image](out/85_IMG_20200315_125023.jpg.webp) | 
-| webp100 | 9,3M | 2.796424024 | <img src='out/mini_webp100_IMG_20200315_125023.jpg' width=150 height=150> |  [image](out/100_IMG_20200315_125023.jpg.webp) | 
->>>>>>> 5529188 (new file:   .git/COMMIT_EDITMSG)
+| original | 11M | .445137514 | <img src='out/mini_webp_original_IMG_20200315_125023.jpg' width=150 height=150> |  [image](out/original_IMG_20200315_125023.jpg) | 
+| heic | 4,0M | 6.727519040 | <img src='out/mini_heic_IMG_20200315_125023.jpg.png' width=150 height=150> |  [image](out/IMG_20200315_125023.jpg.heic) | 
+| jpeg1 | 395K | .214955736 | <img src='out/mini_jpeg1_IMG_20200315_125023.jpg.png' width=150 height=150> |  [image](out/1_IMG_20200315_125023.jpg) | 
+| jpeg10 | 1,2M | .214434370 | <img src='out/mini_jpeg10_IMG_20200315_125023.jpg.png' width=150 height=150> |  [image](out/10_IMG_20200315_125023.jpg) | 
+| jpeg30 | 2,3M | .258342754 | <img src='out/mini_jpeg30_IMG_20200315_125023.jpg.png' width=150 height=150> |  [image](out/30_IMG_20200315_125023.jpg) | 
+| jpeg50 | 3,1M | .267059074 | <img src='out/mini_jpeg50_IMG_20200315_125023.jpg.png' width=150 height=150> |  [image](out/50_IMG_20200315_125023.jpg) | 
+| jpeg60 | 3,5M | .263044224 | <img src='out/mini_jpeg60_IMG_20200315_125023.jpg.png' width=150 height=150> |  [image](out/60_IMG_20200315_125023.jpg) | 
+| jpeg85 | 5,6M | .324718987 | <img src='out/mini_jpeg85_IMG_20200315_125023.jpg.png' width=150 height=150> |  [image](out/85_IMG_20200315_125023.jpg) | 
+| jpeg100 | 9,5M | .706002555 | <img src='out/mini_jpeg100_IMG_20200315_125023.jpg.png' width=150 height=150> |  [image](out/100_IMG_20200315_125023.jpg) | 
+| webp10 | 1,9M | 1.492331994 | <img src='out/mini_webp10_IMG_20200315_125023.jpg' width=150 height=150> |  [image](out/10_IMG_20200315_125023.jpg.webp) | 
+| webp30 | 2,9M | 1.847939510 | <img src='out/mini_webp30_IMG_20200315_125023.jpg' width=150 height=150> |  [image](out/30_IMG_20200315_125023.jpg.webp) | 
+| webp50 | 3,5M | 1.956467089 | <img src='out/mini_webp50_IMG_20200315_125023.jpg' width=150 height=150> |  [image](out/50_IMG_20200315_125023.jpg.webp) | 
+| webp60 | 3,8M | 2.024637354 | <img src='out/mini_webp60_IMG_20200315_125023.jpg' width=150 height=150> |  [image](out/60_IMG_20200315_125023.jpg.webp) | 
+| webp85 | 5,4M | 2.145696494 | <img src='out/mini_webp85_IMG_20200315_125023.jpg' width=150 height=150> |  [image](out/85_IMG_20200315_125023.jpg.webp) | 
+| webp100 | 9,3M | 2.377813937 | <img src='out/mini_webp100_IMG_20200315_125023.jpg' width=150 height=150> |  [image](out/100_IMG_20200315_125023.jpg.webp) | 
